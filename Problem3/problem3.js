@@ -1,9 +1,9 @@
 window.onload = function(){
   var sec = 00; 
   var ms = 00; 
-  var appendMs = document.getElementById("ms")
-  var appendSec = document.getElementById("sec")
-  var Interval ;
+  var appendMs = document.getElementById("ms");
+  var appendSec = document.getElementById("sec");
+  var Interval;
 
   document.getElementById("start").onclick = function(){
     Interval = setInterval(startTimer, 10);
