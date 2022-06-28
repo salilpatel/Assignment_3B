@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="problem2.css">
+  </head>
+  <body>
+    <div>
+      <h2>Tip Calculator</h2>
+      <p> $ <input type="text" id="bill" onchange="calculateTip()"></p>
+      <p>Tip <input type="range" min="1" max="100" value="15" id="tip" onchange="showtipValue(),calculateTip()"><span id="tipValue"></span></p>
+      <hr>  
+      <h4>Results</h4>
+      <p id="tipAmount">Tip amount: </p>
+      <p id="totalBill">Total bill with tip: </p>
+
+      <script src="problem2.js"></script>
+    </div>
+  </body>
+</html>
